@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Charles Louis</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='personal.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/Untitled-removebg-preview.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+      <p>UI/UX designer</p>
+      <h1>Hi, I'm <span>Charles</span><br> Louis From India</h1>
+    </div>
+  </div>
+  </div>
+  <!-- -----about------ -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/dp.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque soluta dolorum optio consequatur. Atque tenetur saepe, eius voluptatum nemo sint ea pariatur illum quidem rem inventore id eaque sequi doloremque.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+            <p class="tab-links"onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web App Interfaces</li>
+              <li><span>Web Development</span><br>Web app Development</li>
+              <li><span>App Development</span><br>Building Android/iOS apps</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2020-2022</span><br>Worked as Trainee in CA firm</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2015-2017</span><br>Plus two Passed from SNPS</li>
+              <li><span>2017-2020</span><br>B.com Passed from M.G University</li>
+              <li><span>2022-Current</span><br>Studing in Brototype in Web Development</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -----services----- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto repellendus blanditiis maiores deserunt maxime debitis dolor. Vitae tenetur, dicta numquam molestiae culpa perferendis esse corrupti quidem animi officia, eaque quo.</p>
+            <a href="">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h2>UI/Ux Design</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto repellendus blanditiis maiores deserunt maxime debitis dolor. Vitae tenetur, dicta numquam molestiae culpa perferendis esse corrupti quidem animi officia, eaque quo.</p>
+          <a href="">Learn More</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store"></i>
+        <h2>App Design</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto repellendus blanditiis maiores deserunt maxime debitis dolor. Vitae tenetur, dicta numquam molestiae culpa perferendis esse corrupti quidem animi officia, eaque quo.</p>
+        <a href="">Learn More</a>
+    </div>
+      </div>
+    </div>
+  </div>
+<!-- -----portfolio----- -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/Prime.png" >
+        <div class="layer">
+          <h3>Amazon Prime Video Clone</h3>
+          <p>It was my first project using HTML and CSS.</p>
+          <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/Tesla.png" >
+        <div class="layer">
+          <h3>Tesla Home Page Clone</h3>
+          <p>It was my Second project using HTML and CSS.</p>
+          <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/godady.png" >
+        <div class="layer">
+          <h3>Go Daddy website Clone</h3>
+          <p>It was my Third project using HTML, CSS, Bootstrap and Java Script.</p>
+          <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+<!-- -----contact----- -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i> charleslouis1234@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>9207062130</p>
+        <div class="social-icons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="images/Charles louis CV.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-Right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright ©️ Charles Louis. Made by <i class="fa-sharp fa-solid fa-heart"></i> my Own.</p>
+  </div>
+</div>
+<script src="/Pers.js"></script>
+</body>
+</html>
